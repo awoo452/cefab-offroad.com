@@ -78,8 +78,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            width: 100%;
-            height: min-content;
+            height: fit-content;
             background: url($about-bg-image);
             background-size: 100%;
             background-repeat: repeat;
@@ -121,12 +120,13 @@ main {
             #aboutImg {
                 display: flex;
                 flex: 60%;
+                background: url($about-image);
+                background-color: black;
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
                 border-top: 1px solid $accent-line-color;
                 border-bottom: 1px solid $accent-line-color;
-                img {
-                    max-width: 100%;
-                    height: auto;
-                }
             }
 
             button {

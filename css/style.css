@@ -91,10 +91,9 @@ main #about .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background: url("/img/rust1.jpg");
   background-size: 100%;
   background-repeat: repeat;
@@ -158,13 +157,13 @@ main #about .container #aboutImg {
   -webkit-box-flex: 60%;
       -ms-flex: 60%;
           flex: 60%;
+  background: url("/img/welding2.jpg");
+  background-color: black;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
-
-main #about .container #aboutImg img {
-  max-width: 100%;
-  height: auto;
 }
 
 main #about .container button {
