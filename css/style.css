@@ -12,6 +12,10 @@ body .hidden {
   display: none;
 }
 
+body a {
+  text-decoration: none;
+}
+
 nav {
   display: inline-block;
   height: 80px;
@@ -88,6 +92,9 @@ main #about .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   background: url("/img/rust1.jpg");
   background-size: 100%;
   background-repeat: repeat;
@@ -237,10 +244,6 @@ main #landing .container ul {
   width: 100%;
 }
 
-main #landing .container img {
-  background-color: black;
-}
-
 main #landing .container .textBox {
   background-color: black;
   border-right: 0;
@@ -259,6 +262,7 @@ main #landing .container .textBox p {
 
 main #landing #container1 {
   background-image: url("/img/welding3.jpeg");
+  background-color: black;
 }
 
 main #landing #container1 ul {
@@ -284,6 +288,7 @@ main #landing #container1 #weldingInfoContainer {
 
 main #landing #container2 {
   background-image: url("/img/tube1.jpg");
+  background-color: black;
 }
 
 main #landing #container2 ul {
@@ -309,6 +314,7 @@ main #landing #container2 #tubeBendingInfoContainer {
 
 main #landing #container3 {
   background-image: url("/img/jeep5.jpg");
+  background-color: black;
   margin-bottom: 0;
 }
 
@@ -494,6 +500,8 @@ main #contact {
   background-repeat: repeat;
   width: 100%;
   padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 5px solid black;
 }
 
 main #contact h1 {
