@@ -1,0 +1,428 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $body-bg-color;
+    .hidden {
+        display: none;
+    }
+}
+
+nav {
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    background: url($nav-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-bottom: 5px solid $accent-line-color;
+    font-family: $accent-font-family;
+    img {
+        max-height: 70px;
+        margin-top: 2px;
+        margin-left: $nav-li-spacer;
+        width: auto;
+    }
+    ul {
+        float: right;
+        background: url($nav-list-bg-image);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        border: 1px solid $accent-line-color;
+        border-right: 0;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        min-height: 50%;
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: olivedrab;
+            text-decoration: underline;
+        }
+    }
+}
+
+main {
+
+    #about {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            background: url($about-bg-image);
+            background-size: 100%;
+            background-repeat: repeat;
+            background-position: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border-bottom: 5px solid $accent-line-color;
+            h1 {
+                flex: 100%;
+                padding-top: .5em;
+                text-align: center;
+                font-size: 1.5em;
+                margin: 0;
+                font-family: $main-font-family;
+                color: white;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                background: url($nav-list-bg-image);
+                background-position: center;
+                background-size: 100%;
+                background-repeat: repeat;
+                border: 1px solid $accent-line-color;
+                border-left: 0;
+                flex: 40%;
+                h2 {
+                    margin: 0;
+                    font-size: 1.25em;
+                    color: white;
+                    font-family: $accent-font-family;
+                }
+            }
+            #aboutImg {
+                display: flex;
+                flex: 60%;
+                border-top: 1px solid $accent-line-color;
+                border-bottom: 1px solid $accent-line-color;
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            button {
+                margin: auto;
+                margin-top: 1em;
+                padding: 1em;
+                background-color: black;
+                color: white;
+                border: 1px solid $line-color;
+                border-radius: 5px;
+                font-family: $main-font-family;
+            }
+            button:hover {
+                cursor: pointer;
+            }
+            @media (min-width: 800px) {
+                ul {
+                    flex: 20%;
+                }
+                #aboutImg {
+                    flex: 80%;
+                }
+            }
+        }
+    }
+
+    #landing {
+        background: url($landing-bg-image);
+        background-size: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-bottom: 5px solid black;
+            h1 {
+                margin: 0;
+                margin-bottom: .5em;
+                font-size: 2em;
+                color: white;
+                text-shadow: 0px 0px 10px black;
+                text-align: center;
+                font-family: $main-font-family;
+            }
+            .container {
+                height: $container-height;
+                width: auto;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position-y: center;
+                margin-bottom: 1em;
+                border-top: 1px solid $accent-line-color;
+                border-bottom: 1px solid $accent-line-color;
+                h2 {
+                    margin: 0;
+                    color: white;
+                    margin-left: 1em;
+                    margin-right: 1em;
+                    font-family: $accent-font-family;
+                    font-size: 2em;
+                }
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    position: relative;
+                    background: url($nav-list-bg-image);
+                    background-position: center;
+                    background-size: 100%;
+                    width: 100%;
+                }
+                .textBox {
+                    background-color: black;
+                    border-right: 0;
+                    position: relative;
+                    padding: .5em;
+                    p {
+                        color: white;
+                        font-family: $p-font-family;
+                        margin: 0;
+                        padding: 0;
+                        line-height: 1em;
+                        text-align: center;
+                    }
+                }
+            }
+    
+
+            #container1 {
+                background-image: url($container1-bg-image);
+                ul {
+                    border-top-right-radius: $landing-border-radius;
+                }
+                .textBox {
+                    border-bottom-right-radius: $landing-border-radius;
+                }
+                #weldingInfoContainer {
+                    float: left;
+                    position: relative;
+                    top: 180px;
+                    width: min-content;
+                    border: 1px solid $line-color;
+                    border-left: none;
+                    border-bottom-right-radius: $landing-border-radius;
+                    border-top-right-radius: $landing-border-radius;
+                }
+            }
+            #container2 {
+                background-image: url($container2-bg-image);
+                ul {
+                    border-top-left-radius: $landing-border-radius;
+                }
+                .textBox {
+                    border-bottom-left-radius: $landing-border-radius;
+                }
+                #tubeBendingInfoContainer {
+                    position: relative;
+                    float: right;
+                    top: 210px;
+                    width: fit-content;
+                    border: 1px solid $line-color;
+                    border-right: none;
+                    border-bottom-left-radius: $landing-border-radius;
+                    border-top-left-radius: $landing-border-radius;
+                }
+            }
+            #container3 {
+                background-image: url($container3-bg-image);
+                margin-bottom: 0;
+                ul {
+                    border-top-right-radius: $landing-border-radius;
+                }
+                .textBox {
+                    border-bottom-right-radius: $landing-border-radius;
+                }
+                #fabricationInfoContainer {
+                    float: left;
+                    position: relative;
+                    top: 195px;
+                    width: min-content;
+                    border: 1px solid $line-color;
+                    border-left: none;
+                    border-bottom-right-radius: $landing-border-radius;
+                    border-top-right-radius: $landing-border-radius;
+                }
+            }
+
+    }
+
+    #projects {
+    padding-top: 1em;
+    background: url($projects-bg-image);
+    background-size: 100%;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: .5em;
+    border-bottom: 5px solid $accent-line-color;
+    h1 {
+    margin: 0;
+    margin-bottom: .5em;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+    font-family: $main-font-family;
+    flex: 100%;
+    }
+    h2 {
+    margin: 0;
+    font-size: 1.25em;
+    color: white;
+    font-size: 2em;
+    font-family: $accent-font-family;
+    }
+    p {
+    font-family: $p-font-family;
+    margin: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    line-height: 1em;
+    }
+    #project1Container {
+    width: 50%;
+    border: 1px solid $line-color;
+    border-radius: 5px;
+    #project1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #project1Image {
+        background: url('/img/jeep3.jpg');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        border-bottom: 1px solid $line-color;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    #project1Title {
+        width: 100%;
+        text-align: center;
+        background: url($nav-list-bg-image);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #project1Text {
+        padding: .5em;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    }
+    #project2Container {
+    width: 40%;
+    #project2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: $container-height;
+        width: 100%;
+    }
+    #project2Image {
+        background: url('/img/jeep3.jpg');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    }
+    #project3Container {
+    width: 40%;
+    #project3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: $container-height;
+        width: 100%;
+    }
+    #project3Image {
+        background: url('/img/jeep3.jpg');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    }
+    }
+
+    #contact {
+    background: url($contact-bg-image);
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100%;
+    padding-top: 1em;
+        h1 {
+            margin: 0;
+            margin-bottom: .5em;
+            font-size: 2em;
+            color: white;
+            text-shadow: 0px 0px 10px black;
+            text-align: center;
+            font-family: $main-font-family; 
+        }
+        #formContainer {
+            display: flex;
+            justify-content: center;
+            
+            form {
+                display: flex;
+                flex-direction: column;
+                font-family: $p-font-family;
+                width: 440px;
+                padding: 1em;
+                background: url($nav-list-bg-image);
+                background-size: 100%;
+                border: 1px solid $line-color;
+                border-radius: 5px;
+                .formItem {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: .5em;
+                    color: white;
+                    font-family: $main-font-family;
+                }
+                #inquiry {
+                    text-align: center;
+                    flex-direction: column;
+                }
+                button {
+                    margin: auto;
+                    margin-top: 1em;
+                    padding: 1em;
+                    background-color: black;
+                    color: white;
+                    border: 1px solid $line-color;
+                    border-radius: 5px;
+                    font-family: $main-font-family;
+                }
+                button:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

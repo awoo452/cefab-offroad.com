@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!--Page Title-->
+        <title></title>
+
+        <!--External CSS files-->
+        <link rel ="stylesheet" href="./css/style.css?v=1.1"> <!--My stylesheet-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> <!--FontAwesome stylesheet-->
+
+        <!--Metadata-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Web Application Design, Development, and Deployment Services"> <!--Page description-->
+        <meta name="keywords" content="HTML, CSS, JavaScript, Web Design, Web Application Design, Web App Development, Web Development, Website Builder, Application, App, Mobile App Developer, App Deployment"> <!--Page keywords-->
+        <meta name="author" content="AWDevelopment"> <!--Page author-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This is page sizing & display-->
+        <meta property="og:image" content="img/awdsm.png"> <!--Put social media image link here-->
+        <meta property="og:image:type" content="image/png"> <!--What file type is displayed?-->
+        
+        <!--Links-->
+        <link rel="icon" href="img/carrot.png"> <!--Browser Tab Image-->
+        <link href="https://fonts.googleapis.com/css2?family=Doppio+One&display=swap" rel="stylesheet">  <!--Font type Link-->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap" rel="stylesheet">  <!--Font type Link-->
+        <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet"> <!--Font type Link-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet"> <!--Font type Link-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"/> <!--Animate.css-->
+
+    </head>
+
+    <body>
+        <nav>
+            <img src="./img/logo.png">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="projects.html">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="store.html">STORE</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section id="about">
+                <article class="container" id="aboutInfoContainer">
+                    <ul>
+                        <li>
+                            <h2>MIG WELDING</h2>
+                        </li>
+                        <li>
+                            <h2>TUBE BENDING</h2>
+                        </li>
+                        <li>
+                            <h2>ROCK SLIDERS</h2>
+                        </li>
+                        <li>
+                            <h2>ROLL CAGES</h2>
+                        </li>
+                        <li>
+                            <h2>SHOCK HOOPS</h2>
+                        </li>
+                        <li>
+                            <h2>TUBE BUMPERS</h2>
+                        </li>
+                        <li>
+                            <h2>TRAILER REPAIR</h2>
+                        </li>
+                    </ul>
+                    
+                    <div id="aboutImg">
+                        <img src="img/welding2.jpg">
+                    </div>
+
+                    <button>GET STARTED!</button>
+
+                </article>
+            </section>
+
+            <section id="landing">
+                <h1>WHAT WE DO</h1>
+                <article class="container" id="container1">
+                    <a href="#" id="weldingInfoContainer">
+                        <ul>
+                            <li>
+                                <h2>WELDING</h2>
+                            </li>
+                        </ul>
+                        <div class="textBox" id="weldingTextBox">
+                            <p>Small projects, production welding, and everything in between!</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="container" id="container2">
+                    <a href="#" id="tubeBendingInfoContainer">
+                        <ul>
+                            <li>
+                                <h2>TUBE BENDING</h2>
+                            </li>
+                        </ul>
+                        <div class="textBox" id="weldingTextBox">
+                            <p>Affordable tube bending solutions!</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="container" id="container3">
+                    <a href="#" id="fabricationInfoContainer">
+                        <ul>
+                            <li>
+                                <h2>FABRICATION</h2>
+                            </li>
+                        </ul>
+                        <div class="textBox" id="weldingTextBox">
+                            <p>A wide range of fabrication related services.</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+            <section id="projects">
+                <h1 id="projectsHeading">OUR PROJECTS</h1>
+                <article id="project1Container">
+                    <a href="#" id="project1">
+                        <div id="project1Image"></div>
+                        <h2 id="project1Title">WJ CHEROKEE</h2>
+                        <p id="project1Text">Featuring bigger axles, hoops all around, 18" coilovers & Fox air shocks. Also including a 4 link rear, custom driveline, & a ton of other modifcations.</p>
+                    </a>
+                </article>
+                <article class="hidden" id="project2Container">
+                    <div id="project2">
+                        <div id="project2Image"></div>
+                    <h2>lorem</h2>
+                    </div>
+                </article>
+                <article class="hidden" id="project3Container">
+                    <div id="project3">
+                        <div id="project3Image"></div>
+                    <h2>lorem</h2>
+                    </div>
+                </article>
+            </section>
+            
+            <section id="contact">
+                <h1>CONTACT</h1>
+                <article id="formContainer">
+                    <form>
+                        <div class="formItem" id="name">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="formItem" id="number">
+                            <label for="number">Phone Number</label>
+                            <input type="text" name="number" id="number">
+                        </div>
+                        <div class="formItem" id="email">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="formItem" id="inquiryType">
+                            <label for="type">Category</label>
+                            <select name="type" id="type">
+                                <option value="default">-</option>
+                                <option value="sales">Sales Question</option>
+                                <option value="order">Order Status</option>
+                                <option value="general">Information Request</option>
+                                <option value="project">Project Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="formItem" id="inquiry">
+                            <label for="inquiry">How can we help?</label>
+                            <textarea id="inquiry" name="inquiry" rows="3">Enter your message here!</textarea>
+                        </div>
+
+                        <button id="submit">SUBMIT!</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <!--Scripts-->
+        <script src="app.js"></script> <!--My JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!--jQuery-->
+    </body>
