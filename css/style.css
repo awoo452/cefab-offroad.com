@@ -62,6 +62,7 @@ nav li {
 }
 
 nav li a {
+  font-size: .75em;
   color: white;
   text-decoration: none;
 }
@@ -69,6 +70,12 @@ nav li a {
 nav li a:hover {
   color: olivedrab;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 800px) {
+  nav li a {
+    font-size: 1.5em;
+  }
 }
 
 main #about .container {
@@ -150,6 +157,7 @@ main #about .container #aboutImg {
 
 main #about .container #aboutImg img {
   max-width: 100%;
+  height: auto;
 }
 
 main #about .container button {
@@ -227,6 +235,10 @@ main #landing .container ul {
   background-position: center;
   background-size: 100%;
   width: 100%;
+}
+
+main #landing .container img {
+  background-color: black;
 }
 
 main #landing .container .textBox {
@@ -403,6 +415,7 @@ main #projects #project1Container #project1Image {
   border-bottom: 1px solid #c8c8c8;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  background-color: black;
 }
 
 main #projects #project1Container #project1Title {

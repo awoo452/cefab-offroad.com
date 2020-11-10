@@ -50,12 +50,20 @@ nav {
         padding-left: 0.5em;
         padding-right: 0.5em;
         a {
+            font-size: .75em;
             color: white;
             text-decoration: none;
         }
         a:hover {
             color: olivedrab;
             text-decoration: underline;
+        }
+    }
+    @media screen and (min-width: 800px) {
+        li {
+            a {
+            font-size: 1.5em;
+            }
         }
     }
 }
@@ -113,6 +121,7 @@ main {
                 border-bottom: 1px solid $accent-line-color;
                 img {
                     max-width: 100%;
+                    height: auto;
                 }
             }
 
@@ -181,6 +190,9 @@ main {
                     background-position: center;
                     background-size: 100%;
                     width: 100%;
+                }
+                img {
+                    background-color: black;
                 }
                 .textBox {
                     background-color: black;
@@ -317,6 +329,7 @@ main {
         border-bottom: 1px solid $line-color;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
+        background-color: black;
     }
     #project1Title {
         width: 100%;
