@@ -26,8 +26,8 @@ nav {
     border-bottom: 5px solid $accent-line-color;
     font-family: $accent-font-family;
     img {
-        max-height: 70px;
-        margin-top: 2px;
+        max-height: 55px;
+        margin-top: 10px;
         margin-left: $nav-li-spacer;
         width: auto;
     }
@@ -50,10 +50,11 @@ nav {
     }
     li {
         list-style-type: none;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        padding-left: .25em;
+        padding-right: .25em;
+        
         a {
-            font-size: .75em;
+            font-size: 1em;
             color: white;
             text-decoration: none;
         }
@@ -63,7 +64,13 @@ nav {
         }
     }
     @media (min-width: 800px) {
+        img {
+            margin-top: 3px;
+            max-height: 70px;
+        }
         li {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
             a {
             font-size: 1.5em;
             }
@@ -291,7 +298,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: .5em;
+    padding-bottom: 1em;
     border-bottom: 5px solid $accent-line-color;
     h1 {
     margin: 0;
@@ -455,5 +462,150 @@ main {
                 }
             }
         }
+    }
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: url($footer-bg-image);
+    background-size: 100%;
+    background-position: center;
+    background-color: black;
+    
+    #footerNavContainer {
+        margin-bottom: 1em;
+        a {
+            color: white;
+            font-family: $accent-font-family;
+            text-align: center;
+        }
+        a:hover {
+            color: olivedrab;
+        }
+        .footerNavItem {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+    }
+
+    #footerContactContainer {
+        margin-bottom: 1em;
+        p {
+
+            margin: 0;
+
+            color: white;
+            font-family: $accent-font-family;
+            text-align: center;
+
+        }
+    }
+
+    #footerSocialMediaContainer {
+        margin-bottom: 1em;
+        a {
+            color: white;
+            font-family: $accent-font-family;
+            text-align: center;
+            font-size: 2em;
+        }
+        .footerSocialMediaItem {
+            margin-left: .5em;
+            margin-right: .5em;
+        }
+    }
+
+    #footerCopyrightContainer {
+        p {
+
+            margin: 0;
+
+            color: white;
+            font-family: $accent-font-family;
+            text-align: center;
+            
+        }
+    }
+}
+
+#wjc {
+    background: url($about-bg-image);
+    background-size: 100%;
+    background-position: center;
+    padding-bottom: 1em;
+    h1 {
+        margin: 0;
+        margin-bottom: .5em;
+        font-size: 2em;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        text-align: center;
+        font-family: $main-font-family;
+    }
+    .wjcImage {
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        margin-top: 1em;
+    }
+    .wjcImage:hover {
+        background-size: 60%;
+        background-color: black;
+    }
+    #wjc1 {
+        margin-top: 0!important;
+        background-image: url($wjc1);
+    }
+    #wjc2 {
+        background-image: url($wjc2);
+    }
+    #wjc3 {
+        background-image: url($wjc3);
+    }
+    #wjc4 {
+        background-image: url($wjc4);
+    }
+    #wjc5 {
+        background-image: url($wjc5);
+    }
+    #wjc6 {
+        background-image: url($wjc6);
+    }
+    #wjc7 {
+        background-image: url($wjc7);
+    }
+    #wjc8 {
+        background-image: url($wjc8);
+    }
+    #wjc9 {
+        background-image: url($wjc9);
+    }
+    #wjc10 {
+        background-image: url($wjc10);
+    }
+    #wjc11 {
+        background-image: url($wjc11);
+    }
+    #wjc12 {
+        background-image: url($wjc12);
+    }
+    #wjc13 {
+        background-image: url($wjc13);
+    }
+    #wjc14 {
+        background-image: url($wjc14);
+    }
+    #wjc15 {
+        background-image: url($wjc15);
+    }
+    #wjc16 {
+        background-image: url($wjc16);
     }
 }

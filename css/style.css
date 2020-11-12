@@ -29,8 +29,8 @@ nav {
 }
 
 nav img {
-  max-height: 70px;
-  margin-top: 2px;
+  max-height: 55px;
+  margin-top: 10px;
   margin-left: 15px;
   width: auto;
 }
@@ -61,12 +61,12 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: .25em;
+  padding-right: .25em;
 }
 
 nav li a {
-  font-size: .75em;
+  font-size: 1em;
   color: white;
   text-decoration: none;
 }
@@ -77,6 +77,14 @@ nav li a:hover {
 }
 
 @media (min-width: 800px) {
+  nav img {
+    margin-top: 3px;
+    max-height: 70px;
+  }
+  nav li {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
   nav li a {
     font-size: 1.5em;
   }
@@ -361,7 +369,7 @@ main #projects {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-bottom: .5em;
+  padding-bottom: 1em;
   border-bottom: 5px solid black;
 }
 
@@ -507,7 +515,7 @@ main #projects #project3Container #project3Image {
 }
 
 main #contact {
-  background: url("/img/sheet1.jpg");
+  background: url("/img/rust1.jpg");
   background-size: 100%;
   background-repeat: repeat;
   width: 100%;
@@ -585,5 +593,174 @@ main #contact #formContainer form button {
 
 main #contact #formContainer form button:hover {
   cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("/img/sheet1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-color: black;
+}
+
+footer #footerNavContainer {
+  margin-bottom: 1em;
+}
+
+footer #footerNavContainer a {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+footer #footerNavContainer a:hover {
+  color: olivedrab;
+}
+
+footer #footerNavContainer .footerNavItem {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+footer #footerContactContainer {
+  margin-bottom: 1em;
+}
+
+footer #footerContactContainer p {
+  margin: 0;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+footer #footerSocialMediaContainer {
+  margin-bottom: 1em;
+}
+
+footer #footerSocialMediaContainer a {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+footer #footerSocialMediaContainer .footerSocialMediaItem {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+footer #footerCopyrightContainer p {
+  margin: 0;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+#wjc {
+  background: url("/img/rust1.jpg");
+  background-size: 100%;
+  background-position: center;
+  padding-bottom: 1em;
+}
+
+#wjc h1 {
+  margin: 0;
+  margin-bottom: .5em;
+  font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+  font-family: "Doppio One", sans-serif;
+}
+
+#wjc .wjcImage {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  margin-top: 1em;
+}
+
+#wjc .wjcImage:hover {
+  background-size: 60%;
+  background-color: black;
+}
+
+#wjc #wjc1 {
+  margin-top: 0 !important;
+  background-image: url("/img/wjc1.jpg");
+}
+
+#wjc #wjc2 {
+  background-image: url("/img/wjc2.jpg");
+}
+
+#wjc #wjc3 {
+  background-image: url("/img/wjc3.jpg");
+}
+
+#wjc #wjc4 {
+  background-image: url("/img/wjc4.jpg");
+}
+
+#wjc #wjc5 {
+  background-image: url("/img/wjc5.jpg");
+}
+
+#wjc #wjc6 {
+  background-image: url("/img/wjc6.jpg");
+}
+
+#wjc #wjc7 {
+  background-image: url("/img/wjc7.jpg");
+}
+
+#wjc #wjc8 {
+  background-image: url("/img/wjc8.jpg");
+}
+
+#wjc #wjc9 {
+  background-image: url("/img/wjc9.jpg");
+}
+
+#wjc #wjc10 {
+  background-image: url("/img/wjc10.jpg");
+}
+
+#wjc #wjc11 {
+  background-image: url("/img/wjc11.jpg");
+}
+
+#wjc #wjc12 {
+  background-image: url("/img/wjc12.jpg");
+}
+
+#wjc #wjc13 {
+  background-image: url("/img/wjc13.jpg");
+}
+
+#wjc #wjc14 {
+  background-image: url("/img/wjc14.jpg");
+}
+
+#wjc #wjc15 {
+  background-image: url("/img/wjc15.jpg");
+}
+
+#wjc #wjc16 {
+  background-image: url("/img/wjc16.jpg");
 }
 /*# sourceMappingURL=style.css.map */
