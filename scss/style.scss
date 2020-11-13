@@ -15,6 +15,20 @@ body {
     }
 }
 
+@media (min-width: 1000px) {
+    body {
+        background-color: rgb(25, 25, 25);
+        margin: auto;
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        max-width: 70%;
+    }
+}
+
 nav {
     display: inline-block;
     height: 80px;
@@ -551,13 +565,11 @@ footer {
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
-        height: 350px;
+        width: 500px;
+        height: 500px;
+        margin: auto;
         margin-top: 1em;
-    }
-    .wjcImage:hover {
-        background-size: 60%;
-        background-color: black;
+        
     }
     #wjc1 {
         margin-top: 0!important;
@@ -595,17 +607,5 @@ footer {
     }
     #wjc12 {
         background-image: url($wjc12);
-    }
-    #wjc13 {
-        background-image: url($wjc13);
-    }
-    #wjc14 {
-        background-image: url($wjc14);
-    }
-    #wjc15 {
-        background-image: url($wjc15);
-    }
-    #wjc16 {
-        background-image: url($wjc16);
     }
 }
