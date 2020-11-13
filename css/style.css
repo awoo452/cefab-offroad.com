@@ -703,10 +703,17 @@ footer #footerCopyrightContainer p {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
   margin: auto;
   margin-top: 1em;
+}
+
+@media (min-width: 520px) {
+  #wjc .wjcImage {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 #wjc #wjc1 {
