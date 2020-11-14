@@ -39,6 +39,8 @@ nav {
     background-size: 100%;
     border-bottom: 5px solid $accent-line-color;
     font-family: $accent-font-family;
+    font-weight: 500;
+    font-style: italic;
     img {
         max-height: 60px;
         margin-top: 10px;
@@ -130,6 +132,8 @@ main {
                     font-size: .9em;
                     color: white;
                     font-family: $accent-font-family;
+                    font-weight: 500;
+                    font-style: italic;
                 }
 
                 @media (min-width: 1000px) {
@@ -204,6 +208,8 @@ main {
                     margin-left: 1em;
                     margin-right: 1em;
                     font-family: $accent-font-family;
+                    font-weight: 500;
+                    font-style: italic;
                     font-size: 2em;
                 }
                 ul {
@@ -324,6 +330,8 @@ main {
     color: white;
     font-size: 2em;
     font-family: $accent-font-family;
+    font-weight: 500;
+    font-style: italic;
     }
     p {
     font-family: $p-font-family;
@@ -496,8 +504,8 @@ footer {
             color: olivedrab;
         }
         .footerNavItem {
-            margin-left: 1em;
-            margin-right: 1em;
+            margin-left: .75em;
+            margin-right: .75em;
         }
     }
 
@@ -510,6 +518,8 @@ footer {
             color: white;
             font-family: $accent-font-family;
             text-align: center;
+            font-weight: 500;
+            font-style: italic;
 
         }
     }

@@ -40,6 +40,8 @@ nav {
   background-size: 100%;
   border-bottom: 5px solid black;
   font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 nav img {
@@ -165,6 +167,8 @@ main #about .container ul h2 {
   font-size: .9em;
   color: white;
   font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 @media (min-width: 1000px) {
@@ -252,6 +256,8 @@ main #landing .container h2 {
   margin-left: 1em;
   margin-right: 1em;
   font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
   font-size: 2em;
 }
 
@@ -401,6 +407,8 @@ main #projects h2 {
   color: white;
   font-size: 2em;
   font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 main #projects p {
@@ -639,8 +647,8 @@ footer #footerNavContainer a:hover {
 }
 
 footer #footerNavContainer .footerNavItem {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: .75em;
+  margin-right: .75em;
 }
 
 footer #footerContactContainer {
@@ -652,6 +660,8 @@ footer #footerContactContainer p {
   color: white;
   font-family: "Noto Sans", sans-serif;
   text-align: center;
+  font-weight: 500;
+  font-style: italic;
 }
 
 footer #footerSocialMediaContainer {
