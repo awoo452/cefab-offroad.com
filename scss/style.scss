@@ -612,7 +612,7 @@ footer {
         }
         #dots {
             display: flex;
-            width: 70%;
+            width: 50%;
             height: min-content;
             justify-content: space-evenly;
             .dot {
@@ -629,10 +629,16 @@ footer {
             height: 500px;
         }
         .buttons {
-            width: 500px;
+            width: 400px;
+            #dots {
+                width: 60%;
+            }
         }
     }
     .current {
+        opacity: 1!important;
+    }
+    .currentDot {
         opacity: 1!important;
     }
     #wjc1 {

@@ -770,7 +770,7 @@ footer #footerCopyrightContainer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
+  width: 50%;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -792,11 +792,18 @@ footer #footerCopyrightContainer p {
     height: 500px;
   }
   #wjc .buttons {
-    width: 500px;
+    width: 400px;
+  }
+  #wjc .buttons #dots {
+    width: 60%;
   }
 }
 
 #wjc .current {
+  opacity: 1 !important;
+}
+
+#wjc .currentDot {
   opacity: 1 !important;
 }
 
