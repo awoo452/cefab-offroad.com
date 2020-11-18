@@ -612,79 +612,29 @@ main #contact #formContainer form button:hover {
   cursor: pointer;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: url("/img/sheet1.jpg");
-  background-size: 100%;
-  background-position: center;
+#wjcHeader {
   background-color: black;
 }
 
-footer #footerNavContainer {
-  margin-bottom: 1em;
-}
-
-footer #footerNavContainer a {
-  color: white;
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
-}
-
-footer #footerNavContainer a:hover {
-  color: olivedrab;
-}
-
-footer #footerNavContainer .footerNavItem {
-  margin-left: .75em;
-  margin-right: .75em;
-}
-
-footer #footerContactContainer {
-  margin-bottom: 1em;
-}
-
-footer #footerContactContainer p {
+#wjcHeader h1 {
+  background-image: url("/img/grid.png");
   margin: 0;
-  color: white;
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-weight: 500;
-  font-style: italic;
-}
-
-footer #footerSocialMediaContainer {
-  margin-bottom: 1em;
-}
-
-footer #footerSocialMediaContainer a {
-  color: white;
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
   font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+  font-family: "Doppio One", sans-serif;
 }
 
-footer #footerSocialMediaContainer .footerSocialMediaItem {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
-footer #footerCopyrightContainer p {
+#wjcHeader p {
   margin: 0;
   color: white;
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
+  font-family: "Hind", sans-serif;
+  text-indent: 30px;
+  padding: 1em;
+  line-height: 1em;
+  width: 90%;
+  margin: auto;
 }
 
 #wjc {
@@ -692,18 +642,9 @@ footer #footerCopyrightContainer p {
   background-size: 100%;
   background-position: center;
   padding-bottom: 1em;
+  padding-top: 1em;
   min-height: 65vh;
   border-bottom: 5px solid black;
-}
-
-#wjc h1 {
-  margin: 0;
-  margin-bottom: .5em;
-  font-size: 2em;
-  color: white;
-  text-shadow: 0px 0px 10px black;
-  text-align: center;
-  font-family: "Doppio One", sans-serif;
 }
 
 #wjc #wjcScroller {
@@ -742,6 +683,7 @@ footer #footerCopyrightContainer p {
   width: 250px;
   margin: auto;
   top: -3em;
+  margin-bottom: -2em;
 }
 
 #wjc .buttons button {
@@ -819,51 +761,78 @@ footer #footerCopyrightContainer p {
   opacity: 1 !important;
 }
 
-#wjc #wjc1 {
-  background-image: url("/img/wjc1.jpg");
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("/img/sheet1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-color: black;
 }
 
-#wjc #wjc2 {
-  background-image: url("/img/wjc2.jpg");
+footer #footerNavContainer {
+  margin-bottom: 1em;
 }
 
-#wjc #wjc3 {
-  background-image: url("/img/wjc3.jpg");
+footer #footerNavContainer a {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
 }
 
-#wjc #wjc4 {
-  background-image: url("/img/wjc4.jpg");
+footer #footerNavContainer a:hover {
+  color: olivedrab;
 }
 
-#wjc #wjc5 {
-  background-image: url("/img/wjc5.jpg");
+footer #footerNavContainer .footerNavItem {
+  margin-left: .75em;
+  margin-right: .75em;
 }
 
-#wjc #wjc6 {
-  background-image: url("/img/wjc6.jpg");
+footer #footerContactContainer {
+  margin-bottom: 1em;
 }
 
-#wjc #wjc7 {
-  background-image: url("/img/wjc7.jpg");
+footer #footerContactContainer p {
+  margin: 0;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
 }
 
-#wjc #wjc8 {
-  background-image: url("/img/wjc8.jpg");
+footer #footerSocialMediaContainer {
+  margin-bottom: 1em;
 }
 
-#wjc #wjc9 {
-  background-image: url("/img/wjc9.jpg");
+footer #footerSocialMediaContainer a {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 2em;
 }
 
-#wjc #wjc10 {
-  background-image: url("/img/wjc10.jpg");
+footer #footerSocialMediaContainer .footerSocialMediaItem {
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
-#wjc #wjc11 {
-  background-image: url("/img/wjc11.jpg");
-}
-
-#wjc #wjc12 {
-  background-image: url("/img/wjc12.jpg");
+footer #footerCopyrightContainer p {
+  margin: 0;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
