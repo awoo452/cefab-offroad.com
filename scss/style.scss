@@ -557,6 +557,7 @@ footer {
     background-position: center;
     padding-bottom: 1em;
     min-height: 65vh;
+    border-bottom: 5px solid black;
     h1 {
         margin: 0;
         margin-bottom: .5em;
@@ -624,6 +625,12 @@ footer {
             }
         }
     }
+    
+    #wjcVideo {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
     @media (min-width: 650px) {
         #wjcScroller {
             width: 500px;
@@ -634,6 +641,10 @@ footer {
             #dots {
                 width: 60%;
             }
+        }
+        #wjcVideo {
+            width: 500px;
+            height: 500px;
         }
     }
     .current {

@@ -693,6 +693,7 @@ footer #footerCopyrightContainer p {
   background-position: center;
   padding-bottom: 1em;
   min-height: 65vh;
+  border-bottom: 5px solid black;
 }
 
 #wjc h1 {
@@ -787,6 +788,12 @@ footer #footerCopyrightContainer p {
   opacity: 40%;
 }
 
+#wjc #wjcVideo {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
+
 @media (min-width: 650px) {
   #wjc #wjcScroller {
     width: 500px;
@@ -797,6 +804,10 @@ footer #footerCopyrightContainer p {
   }
   #wjc .buttons #dots {
     width: 60%;
+  }
+  #wjc #wjcVideo {
+    width: 500px;
+    height: 500px;
   }
 }
 
