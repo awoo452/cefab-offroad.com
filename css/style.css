@@ -692,6 +692,7 @@ footer #footerCopyrightContainer p {
   background-size: 100%;
   background-position: center;
   padding-bottom: 1em;
+  min-height: 65vh;
 }
 
 #wjc h1 {
