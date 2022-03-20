@@ -1,4 +1,5 @@
 @import './variables';
+@import'./projects';
 
 * {
     box-sizing: border-box;
@@ -311,115 +312,98 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    box-sizing: border-box;
     justify-content: space-evenly;
     padding-bottom: 1em;
     border-bottom: 5px solid $accent-line-color;
-    h1 {
-    margin: 0;
-    margin-bottom: .5em;
-    font-size: 2em;
-    color: white;
-    text-shadow: 0px 0px 10px black;
-    text-align: center;
-    font-family: $main-font-family;
-    flex: 100%;
-    }
-    h2 {
-    margin: 0;
-    font-size: 1.25em;
-    color: white;
-    font-size: 2em;
-    font-family: $accent-font-family;
-    font-weight: 500;
-    font-style: italic;
-    }
-    p {
-    font-family: $p-font-family;
-    margin: 0;
-    color: white;
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    line-height: 1em;
-    }
-    #project1Container {
-    width: 50%;
-    border: 1px solid $line-color;
-    border-radius: 5px;
-    #project1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    #project1Image {
-        background: url('/img/jeep3.jpg');
-        background-position: center;
-        background-size: 120%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 200px;
-        border-bottom: 1px solid $line-color;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
-        background-color: black;
-    }
-    @media (min-width: 1000px) {
-        #project1Image {
-            background-size: 100%;
-            height: 300px;
+        h1 {
+        margin: 0;
+        margin-bottom: .5em;
+        font-size: 2em;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        text-align: center;
+        font-family: $main-font-family;
+        flex: 100%;
         }
-    }
-    #project1Title {
+        h2 {
+        margin: 0;
+        font-size: 1.25em;
+        color: white;
+        font-size: 2em;
+        font-family: $accent-font-family;
+        font-weight: 500;
+        font-style: italic;
+        }
+        p {
+        font-family: $p-font-family;
+        margin: 0;
+        color: white;
         width: 100%;
         text-align: center;
-        background: url($nav-list-bg-image);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-    #project1Text {
-        padding: .5em;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-    }
-    #project2Container {
-    width: 40%;
-    #project2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: $container-height;
-        width: 100%;
-    }
-    #project2Image {
-        background: url('/img/jeep3.jpg');
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 200px;
-    }
-    }
-    #project3Container {
+        background-color: black;
+        line-height: 1em;
+        }
+        .projectContainer {
         width: 40%;
-        #project3 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: $container-height;
-            width: 100%;
-        }
-        #project3Image {
-            background: url('/img/jeep3.jpg');
-            background-position: center;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 200px;
+        border: 1px solid $line-color;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: black;
+            .project {
+                #project1Image {
+                    background: url('/img/jeep3.jpg');
+                    background-position: center;
+                    background-size: 120%;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 200px;
+                    border-bottom: 1px solid $line-color;
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    background-color: black;
+                }
+                @media (min-width: 1000px) {
+                    #project1Image {
+                        background-size: 100%;
+                        height: 300px;
+                    }
+                }
+                #project2Image {
+                    background: url('/img/sr5red3.jpeg');
+                    background-position: center;
+                    background-size: 120%;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 200px;
+                    border-bottom: 1px solid $line-color;
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    background-color: black;
+                }
+                @media (min-width: 1000px) {
+                    #project2Image {
+                        background-size: 100%;
+                        height: 300px;
+                    }
+                }
+                .projectTitle {
+                    width: 100%;
+                    text-align: center;
+                    background: url($nav-list-bg-image);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                }
+                .projectText {
+                    padding: .5em;
+                    border-bottom-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+            }
+            
         }
     }
-    }
+}   
 
     #contact {
     background: url($contact-bg-image);
@@ -479,7 +463,7 @@ main {
             }
         }
     }
-}
+
 #wjcHeader {
     background-color: black;
     h1 {
@@ -503,102 +487,7 @@ main {
     }
 }
 
-#wjc {
-    background: url($about-bg-image);
-    background-size: 100%;
-    background-position: center;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    min-height: 65vh;
-    border-bottom: 5px solid black;
-    #wjcScroller {
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-        width: 250px;
-        height: 250px;
-    }
-    
-    .slide {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: opacity 0.4s ease-in-out;
-    }
-    .slide img {
-        height: 100%;
-        width: 100%;
-    }
-    .buttons {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        width: 250px;
-        margin: auto;
-        top: -3em;
-        margin-bottom: -2em;
-        button {
-            background-color: black;
-            border: none;
-            color: white;
-            width: min-content;
-            height: min-content;
-            opacity: 40%;
-            border-radius: 50px;
-            font-size: 1.5em;
-            margin: .5em;
-        }
-        button:hover {
-            cursor: pointer;
-        }
-        button:focus {
-            outline: none;
-        }
-        #dots {
-            display: flex;
-            width: 50%;
-            height: min-content;
-            justify-content: space-evenly;
-            .dot {
-                width: 5px;
-                height: 5px;
-                background-color: white;
-                opacity: 40%;
-            }
-        }
-    }
-    
-    #wjcVideo {
-        
-        margin: auto;
-        width: 250px;
-        height: 250px;
-    }
-    @media (min-width: 650px) {
-        #wjcScroller {
-            width: 500px;
-            height: 500px;
-        }
-        .buttons {
-            width: 400px;
-            #dots {
-                width: 60%;
-            }
-        }
-        #wjcVideo {
-            width: 500px;
-            height: 500px;
-        }
-    }
-    .current {
-        opacity: 1!important;
-    }
-    .currentDot {
-        opacity: 1!important;
-    }
-}
+
 
 footer {
 
