@@ -130,6 +130,11 @@
   opacity: 1 !important;
 }
 
+#wjc .instagram-media {
+  margin: auto !important;
+  max-width: 500px !important;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -509,6 +514,13 @@ main #projects .projectContainer {
   border-radius: 5px;
   box-sizing: border-box;
   background-color: black;
+}
+
+@media screen and (max-width: 690px) {
+  main #projects .projectContainer {
+    width: 90%;
+    margin: .25em;
+  }
 }
 
 main #projects .projectContainer .project #project1Image {
