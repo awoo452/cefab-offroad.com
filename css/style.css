@@ -45,7 +45,6 @@
   .projectPage .projectScroller {
     width: 500px;
     height: 500px;
-    margin-bottom: 1.5em;
   }
 }
 
@@ -127,6 +126,12 @@
 .projectPage .instagram-media {
   margin: auto !important;
   max-width: 500px !important;
+}
+
+@media screen {
+  .projectPage .instagram-media {
+    margin-top: 1.5em !important;
+  }
 }
 
 * {

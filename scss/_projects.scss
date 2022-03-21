@@ -38,7 +38,6 @@
         @media screen and (min-width: 650px) {
             width: 500px;
             height: 500px;
-            margin-bottom: 1.5em;
         }
         .slide {
             position: absolute;
@@ -110,5 +109,8 @@
     .instagram-media {
         margin: auto!important;
         max-width: 500px!important;
+        @media screen {
+            margin-top: 1.5em!important;
+        }
     }
 }
