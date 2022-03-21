@@ -45,6 +45,7 @@
   .projectPage .projectScroller {
     width: 500px;
     height: 500px;
+    margin-top: 1em;
   }
 }
 
