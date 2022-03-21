@@ -359,6 +359,12 @@ main {
             margin: .25em;
         }
             .project {
+                .projectImage {
+                    border-bottom: 1px solid $line-color;
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    background-color: black;
+                }
                 #project1Image {
                     background: url('/img/jeep3.jpg');
                     background-position: center;
@@ -366,17 +372,11 @@ main {
                     background-repeat: no-repeat;
                     width: 100%;
                     height: 200px;
-                    border-bottom: 1px solid $line-color;
-                    border-top-right-radius: 5px;
-                    border-top-left-radius: 5px;
-                    background-color: black;
-                }
-                @media (min-width: 1000px) {
-                    #project1Image {
+                    @media (min-width: 1000px) {
                         background-size: 100%;
                         height: 300px;
                     }
-                }
+                }           
                 #project2Image {
                     background: url('/img/sr5red3.jpeg');
                     background-position: center;
@@ -384,13 +384,7 @@ main {
                     background-repeat: no-repeat;
                     width: 100%;
                     height: 200px;
-                    border-bottom: 1px solid $line-color;
-                    border-top-right-radius: 5px;
-                    border-top-left-radius: 5px;
-                    background-color: black;
-                }
-                @media (min-width: 1000px) {
-                    #project2Image {
+                    @media (min-width: 1000px) {
                         background-size: 100%;
                         height: 300px;
                     }
