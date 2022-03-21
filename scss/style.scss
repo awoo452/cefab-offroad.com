@@ -287,7 +287,6 @@ main {
             #container3 {
                 background-image: url($container3-bg-image);
                 background-color: black;
-                margin-bottom: 0;
                 ul {
                     border-top-right-radius: $landing-border-radius;
                 }
@@ -303,6 +302,27 @@ main {
                     border-left: none;
                     border-bottom-right-radius: $landing-border-radius;
                     border-top-right-radius: $landing-border-radius;
+                }
+            }
+            #container4 {
+                background-image: url($container4-bg-image);
+                background-color: black;
+                margin-bottom: 0;
+                ul {
+                    border-top-right-radius: $landing-border-radius;
+                }
+                .textBox {
+                    border-bottom-right-radius: $landing-border-radius;
+                }
+                #detailingInfoContainer {
+                    position: relative;
+                    float: right;
+                    top: 210px;
+                    width: fit-content;
+                    border: 1px solid $line-color;
+                    border-right: none;
+                    border-bottom-left-radius: $landing-border-radius;
+                    border-top-left-radius: $landing-border-radius;
                 }
             }
 
@@ -350,13 +370,13 @@ main {
         }
         .projectContainer {
         width: 40%;
+        margin: 1em;
         border: 1px solid $line-color;
         border-radius: 5px;
         box-sizing: border-box;
         background-color: black;
         @media screen and (max-width: 690px) {
             width: 90%;
-            margin: .25em;
         }
             .project {
                 .projectImage {
@@ -379,6 +399,18 @@ main {
                 }           
                 #project2Image {
                     background: url('/img/sr5red3.jpeg');
+                    background-position: center;
+                    background-size: 120%;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 200px;
+                    @media (min-width: 1000px) {
+                        background-size: 100%;
+                        height: 300px;
+                    }
+                }
+                #project3Image {
+                    background: url('/img/the4runner.jpg');
                     background-position: center;
                     background-size: 120%;
                     background-repeat: no-repeat;
