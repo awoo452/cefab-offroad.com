@@ -41,7 +41,7 @@
   height: 250px;
 }
 
-@media (min-width: 650px) {
+@media screen and (min-width: 650px) {
   .projectPage .projectScroller {
     width: 500px;
     height: 500px;

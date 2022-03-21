@@ -35,7 +35,7 @@
         overflow: hidden;
         width: 250px;
         height: 250px;
-        @media (min-width: 650px) {
+        @media screen and (min-width: 650px) {
             width: 500px;
             height: 500px;
         }
