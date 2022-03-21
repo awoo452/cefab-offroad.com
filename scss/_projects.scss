@@ -33,11 +33,19 @@
         margin: auto;
         position: relative;
         overflow: hidden;
-        width: 250px;
-        height: 250px;
-        @media screen and (min-width: 650px) {
-            width: 500px;
-            height: 500px;
+        width: 500px;
+        height: 500px;
+        @media screen and (max-width: 500px) {
+            width: 450px;
+            height: 450px;
+        }
+        @media (max-width: 400px) {
+            width: 350px;
+            height: 350px;
+        }
+        @media (max-width: 200px) {
+            width: 150px;
+            height: 150px;
         }
         .slide {
             position: absolute;
@@ -91,6 +99,9 @@
                 height: 5px;
                 background-color: white;
                 opacity: 40%;
+            }
+            .currentDot {
+                opacity: 80%;
             }
         }
     }
