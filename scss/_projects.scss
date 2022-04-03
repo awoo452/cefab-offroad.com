@@ -117,3 +117,113 @@
         }
     }
 }
+
+#sr5Projects {
+    padding-top: 1em;
+    background: url($projects-bg-image);
+    background-size: 100%;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+    border-bottom: 5px solid $accent-line-color;
+    h1 {
+    margin: 0;
+    margin-bottom: .5em;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+    font-family: $main-font-family;
+    flex: 100%;
+    }
+    h2 {
+    margin: 0;
+    font-size: 1.25em;
+    color: white;
+    font-size: 2em;
+    font-family: $accent-font-family;
+    font-weight: 500;
+    font-style: italic;
+    }
+    p {
+    font-family: $p-font-family;
+    margin: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    line-height: 1em;
+    }
+.projectContainer {
+    width: 40%;
+    margin: 1em;
+    border: 1px solid $line-color;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    @media screen and (max-width: 1190px) {
+        width: 70%;
+    }
+        .project {
+            .projectImage {
+                border-bottom: 1px solid $line-color;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+                background-color: black;
+            }
+            #project1Image {
+                background: url('/img/sr5red3.jpeg');
+                background-position: center;
+                background-size: 120%;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 300px;
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }           
+            #project2Image {
+                background: url('/img/sr5red12.jpeg');
+                background-position: center;
+                background-size: 120%;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 300px;
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
+            #project3Image {
+                background: url('/img/the4runner.jpg');
+                background-position: center;
+                background-size: 120%;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 300px;
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
+            .projectTitle {
+                width: 100%;
+                text-align: center;
+                background: url($nav-list-bg-image);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .projectText {
+                padding: .5em;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+        
+    }
+}
