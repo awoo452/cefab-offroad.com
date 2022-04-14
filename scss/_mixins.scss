@@ -1,0 +1,8 @@
+@mixin custom-image($url, $size, $position, $repeat, $width, $height) {
+    background: $url;
+    background-size: $size;
+    background-position: $position;
+    background-repeat: $repeat;
+    width: $width;
+    height: $height;
+}

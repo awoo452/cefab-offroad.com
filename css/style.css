@@ -3,7 +3,12 @@
 }
 
 .projectHeader h1 {
-  background-image: url("/img/grid.png");
+  background: url("/img/grid.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  width: auto;
+  height: auto;
   margin: 0;
   font-size: 2em;
   color: white;
@@ -24,9 +29,12 @@
 }
 
 .projectPage {
-  background: url("/img/rust1.jpg");
+  background: url("/img/rust2.jpg");
   background-size: 100%;
   background-position: center;
+  background-repeat: repeat;
+  width: auto;
+  height: auto;
   padding-bottom: 1em;
   padding-top: 1em;
   min-height: 65vh;
@@ -142,7 +150,10 @@
   padding-top: 1em;
   background: url("/img/rust2.jpg");
   background-size: 100%;
+  background-position: center;
   background-repeat: repeat;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -207,8 +218,8 @@
 
 #sr5Projects .projectContainer .project #project1Image {
   background: url("/img/sr5red3.jpeg");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 300px;
@@ -223,8 +234,8 @@
 
 #sr5Projects .projectContainer .project #project2Image {
   background: url("/img/sr5red21.png");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 300px;
@@ -239,8 +250,8 @@
 
 #sr5Projects .projectContainer .project #project3Image {
   background: url("/img/the4runner.jpg");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 300px;
@@ -253,12 +264,31 @@
   }
 }
 
+#sr5Projects .projectContainer .project #project4Image {
+  background: url("/img/trailer17.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 1000px) {
+  #sr5Projects .projectContainer .project #project4Image {
+    background-size: 100%;
+    height: 400px;
+  }
+}
+
 #sr5Projects .projectContainer .project .projectTitle {
   width: 100%;
   text-align: center;
   background: url("/img/grid.png");
   background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  width: parent;
+  height: parent;
 }
 
 #sr5Projects .projectContainer .project .projectText {
@@ -307,9 +337,11 @@ nav {
   height: 80px;
   width: 100%;
   background: url("/img/sheet1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   border-bottom: 5px solid black;
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
@@ -326,9 +358,11 @@ nav img {
 nav ul {
   float: right;
   background: url("/img/grid.png");
-  background-position: center;
   background-size: 100%;
+  background-position: center;
   background-repeat: repeat;
+  width: parent;
+  height: parent;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -374,8 +408,10 @@ main #about .container {
   height: fit-content;
   background: url("/img/rust1.jpg");
   background-size: 100%;
-  background-repeat: repeat;
   background-position: center;
+  background-repeat: repeat;
+  width: parent;
+  height: parent;
   padding-top: 1em;
   padding-bottom: 1em;
   border-bottom: 5px solid black;
@@ -400,9 +436,11 @@ main #about .container ul {
   padding: 0;
   margin: 0;
   background: url("/img/grid.png");
-  background-position: center;
   background-size: 100%;
+  background-position: center;
   background-repeat: repeat;
+  width: parent;
+  height: parent;
   border: 1px solid black;
   border-left: 0;
   flex: 40%;
@@ -427,6 +465,11 @@ main #about .container #aboutImg {
   display: flex;
   flex: 60%;
   background: url("/img/welding2.jpg");
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   background-color: black;
   background-position: center;
   background-size: 150%;
@@ -462,6 +505,10 @@ main #about .container button:hover {
 main #landing {
   background: url("/img/sheet2.jpg");
   background-size: 100%;
+  background-position: parent;
+  background-repeat: parent;
+  width: parent;
+  height: parent;
   padding-top: 1em;
   padding-bottom: 1em;
   border-bottom: 5px solid black;
@@ -505,9 +552,11 @@ main #landing .container ul {
   margin: 0;
   position: relative;
   background: url("/img/grid.png");
-  background-position: center;
   background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
+  height: parent;
 }
 
 main #landing .container .textBox {
@@ -527,7 +576,12 @@ main #landing .container .textBox p {
 }
 
 main #landing #container1 {
-  background-image: url("/img/welding3.jpeg");
+  background: url("/img/welding3.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   background-color: black;
 }
 
@@ -551,7 +605,12 @@ main #landing #container1 #weldingInfoContainer {
 }
 
 main #landing #container2 {
-  background-image: url("/img/tube1.jpg");
+  background: url("/img/tube1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   background-color: black;
 }
 
@@ -575,7 +634,12 @@ main #landing #container2 #tubeBendingInfoContainer {
 }
 
 main #landing #container3 {
-  background-image: url("/img/jeep5.jpg");
+  background: url("/img/jeep5.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   background-color: black;
 }
 
@@ -599,17 +663,22 @@ main #landing #container3 #fabricationInfoContainer {
 }
 
 main #landing #container4 {
-  background-image: url("/img/sr5red2.jpeg");
+  background: url("/img/sr5red2.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
   background-color: black;
   margin-bottom: 0;
 }
 
 main #landing #container4 ul {
-  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 main #landing #container4 .textBox {
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 main #landing #container4 #detailingInfoContainer {
@@ -627,7 +696,10 @@ main #projects {
   padding-top: 1em;
   background: url("/img/rust2.jpg");
   background-size: 100%;
+  background-position: center;
   background-repeat: repeat;
+  width: parent;
+  height: parent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -692,8 +764,8 @@ main #projects .projectContainer .project .projectImage {
 
 main #projects .projectContainer .project #project1Image {
   background: url("/img/jeep3.jpg");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
@@ -708,8 +780,8 @@ main #projects .projectContainer .project #project1Image {
 
 main #projects .projectContainer .project #project2Image {
   background: url("/img/sr5red3.jpeg");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
@@ -724,8 +796,8 @@ main #projects .projectContainer .project #project2Image {
 
 main #projects .projectContainer .project #project3Image {
   background: url("/img/the4runner.jpg");
-  background-position: center;
   background-size: 120%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 200px;
@@ -738,12 +810,31 @@ main #projects .projectContainer .project #project3Image {
   }
 }
 
+main #projects .projectContainer .project #project4Image {
+  background: url("/img/trailer17.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width: 1000px) {
+  main #projects .projectContainer .project #project4Image {
+    background-size: 100%;
+    height: 300px;
+  }
+}
+
 main #projects .projectContainer .project .projectTitle {
   width: 100%;
   text-align: center;
   background: url("/img/grid.png");
   background-size: 100%;
+  background-position: parent;
   background-repeat: no-repeat;
+  width: parent;
+  height: parent;
 }
 
 main #projects .projectContainer .project .projectText {
@@ -752,76 +843,17 @@ main #projects .projectContainer .project .projectText {
   border-bottom-left-radius: 5px;
 }
 
-#contact {
-  background: url("/img/rust1.jpg");
-  background-size: 100%;
-  background-repeat: repeat;
-  width: 100%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-bottom: 5px solid black;
-}
-
-#contact h1 {
-  margin: 0;
-  margin-bottom: .5em;
-  font-size: 2em;
-  color: white;
-  text-shadow: 0px 0px 10px black;
-  text-align: center;
-  font-family: "Doppio One", sans-serif;
-}
-
-#contact #formContainer {
-  display: flex;
-  justify-content: center;
-}
-
-#contact #formContainer form {
-  display: flex;
-  flex-direction: column;
-  font-family: "Hind", sans-serif;
-  width: 440px;
-  padding: 1em;
-  background: url("/img/grid.png");
-  background-size: 100%;
-  border: 1px solid #c8c8c8;
-  border-radius: 5px;
-}
-
-#contact #formContainer form .formItem {
-  display: flex;
-  justify-content: space-between;
-  margin-top: .5em;
-  color: white;
-  font-family: "Doppio One", sans-serif;
-}
-
-#contact #formContainer form #inquiry {
-  text-align: center;
-  flex-direction: column;
-}
-
-#contact #formContainer form button {
-  margin: auto;
-  margin-top: 1em;
-  padding: 1em;
-  background-color: black;
-  color: white;
-  border: 1px solid #c8c8c8;
-  border-radius: 5px;
-  font-family: "Doppio One", sans-serif;
-}
-
-#contact #formContainer form button:hover {
-  cursor: pointer;
-}
-
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("/img/sheet1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: parent;
+  width: parent;
+  height: parent;
   background: url("/img/sheet1.jpg");
   background-size: 100%;
   background-position: center;
