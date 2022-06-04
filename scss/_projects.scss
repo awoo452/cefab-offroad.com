@@ -118,7 +118,7 @@
     }
 }
 
-#sr5Projects {
+#projectCards {
     padding-top: 1em;
     @include custom-image(url('/img/rust2.jpg'), 100%, center, repeat, auto, auto);
     display: flex;
@@ -173,29 +173,29 @@
                 border-top-left-radius: 5px;
                 background-color: black;
             }
-            #project1Image {
+            #sr5Project1Image {
                 @include custom-image(url('/img/sr5red3.jpeg'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
                 }
             }           
-            #project2Image {
+            #sr5Project2Image {
                 @include custom-image(url('/img/sr5red21.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
                 }
             }
-            #project3Image {
+            #the4RunnerProject1Image {
                 @include custom-image(url('/img/the4runner.jpg'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
                 }
             }
-            #project4Image {
-                @include custom-image(url('/img/trailer17.png'), 120%, center, no-repeat, 100%, 300px);
+            #dlxYellowProject1Image {
+                @include custom-image(url('/img/dlxyellow2.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
