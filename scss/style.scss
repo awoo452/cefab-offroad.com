@@ -403,7 +403,7 @@ main {
                     }
                 }
                 #project3Image {
-                    @include custom-image(url('/img/the4runner.jpg'), 120%, center, no-repeat, 100%, 200px);
+                    @include custom-image(url('/img/dlxyellow1.png'), 120%, center, no-repeat, 100%, 200px);
                     @media (min-width: 1000px) {
                         background-size: 100%;
                         height: 300px;
@@ -411,6 +411,13 @@ main {
                 }
                 #project4Image {
                     @include custom-image(url('/img/trailer17.png'), 120%, center, no-repeat, 100%, 200px);
+                    @media (min-width: 1000px) {
+                        background-size: 100%;
+                        height: 300px;
+                    }
+                }
+                #project5Image {
+                    @include custom-image(url('/img/96limited.png'), 120%, center, no-repeat, 100%, 200px);
                     @media (min-width: 1000px) {
                         background-size: 100%;
                         height: 300px;
