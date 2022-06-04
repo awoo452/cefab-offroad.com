@@ -692,6 +692,35 @@ main #landing #container4 #detailingInfoContainer {
   border-top-left-radius: 5px;
 }
 
+main #landing #container5 {
+  background: url("/img/service1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: parent;
+  height: parent;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+main #landing #container5 ul {
+  border-top-right-radius: 5px;
+}
+
+main #landing #container5 .textBox {
+  border-bottom-right-radius: 5px;
+}
+
+main #landing #container5 #serviceInfoContainer {
+  position: relative;
+  float: left;
+  top: 210px;
+  border: 1px solid #c8c8c8;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 main #projects {
   padding-top: 1em;
   background: url("/img/rust2.jpg");

@@ -310,6 +310,26 @@ main {
                     border-top-left-radius: 5px;
                 }
             }
+            #container5 {
+                @include custom-image(url('/img/service1.jpg'), 100%, center, no-repeat, parent, parent);
+                background-color: black;
+                margin-bottom: 0;
+                ul {
+                    border-top-right-radius: 5px;
+                }
+                .textBox {
+                    border-bottom-right-radius: 5px;
+                }
+                #serviceInfoContainer {
+                    position: relative;
+                    float: left;
+                    top: 210px;
+                    border: 1px solid rgb(200,200, 200);
+                    border-left: none;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
 
     }
 
