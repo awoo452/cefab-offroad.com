@@ -464,7 +464,7 @@ main #about .container ul h2 {
 main #about .container #aboutImg {
   display: flex;
   flex: 60%;
-  background: url("/img/welding2.jpg");
+  background: url("/img/background1.jpg");
   background-size: 150%;
   background-position: center;
   background-repeat: no-repeat;

@@ -139,7 +139,7 @@ main {
             #aboutImg {
                 display: flex;
                 flex: 60%;
-                @include custom-image(url('/img/welding2.jpg'), 150%, center, no-repeat, parent, parent);
+                @include custom-image(url('/img/background1.jpg'), 150%, center, no-repeat, parent, parent);
                 background-color: black;
                 background-position: center;
                 background-size: 150%;
