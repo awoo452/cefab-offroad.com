@@ -173,14 +173,14 @@
                 border-top-left-radius: 5px;
                 background-color: black;
             }
-            #sr5Project1Image {
+            #sr5RedProject1Image {
                 @include custom-image(url('/img/sr5red3.jpeg'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
                 }
             }           
-            #sr5Project2Image {
+            #sr5RedProject2Image {
                 @include custom-image(url('/img/sr5red21.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
@@ -196,6 +196,13 @@
             }
             #dlxYellowProject1Image {
                 @include custom-image(url('/img/dlxyellow2.png'), 120%, center, no-repeat, 100%, 300px);
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
+            #sr5BlueProject1Image {
+                @include custom-image(url('/img/sr5Blue2.jpg'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
