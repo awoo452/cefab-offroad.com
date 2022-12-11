@@ -985,7 +985,7 @@ footer #footerSocialMediaContainer .footerSocialMediaItem {
   margin-right: .5em;
 }
 
-footer #footerCopyrightContainer p {
+footer #footerCopyrightContainer a {
   margin: 0;
   color: white;
   font-family: "Noto Sans", sans-serif;
