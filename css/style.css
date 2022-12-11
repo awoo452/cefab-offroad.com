@@ -393,12 +393,12 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding-left: .25em;
-  padding-right: .25em;
+  padding-left: .2em;
+  padding-right: .2em;
 }
 
 nav li a {
-  font-size: .75em;
+  font-size: .65em;
   color: white;
   text-decoration: none;
 }
