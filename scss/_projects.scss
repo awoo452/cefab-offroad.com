@@ -195,7 +195,21 @@
                 }
             }
             #dlxYellowProject1Image {
-                @include custom-image(url('/img/dlxyellow2.png'), 120%, center, no-repeat, 100%, 300px);
+                @include custom-image(url('/img/dlxyellow/2.png'), 120%, center, no-repeat, 100%, 300px);
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
+            #dlxYellowProject2Image {
+                @include custom-image(url('/img/dlxyellow/3.png'), 120%, center, no-repeat, 100%, 300px);
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
+            #dlxYellowProject3Image {
+                @include custom-image(url('/img/dlxyellow/20.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;

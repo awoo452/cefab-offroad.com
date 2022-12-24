@@ -265,7 +265,7 @@
 }
 
 #projectCards .projectContainer .project #dlxYellowProject1Image {
-  background: url("/img/dlxyellow2.png");
+  background: url("/img/dlxyellow/2.png");
   background-size: 120%;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,6 +275,38 @@
 
 @media (min-width: 1000px) {
   #projectCards .projectContainer .project #dlxYellowProject1Image {
+    background-size: 100%;
+    height: 400px;
+  }
+}
+
+#projectCards .projectContainer .project #dlxYellowProject2Image {
+  background: url("/img/dlxyellow/3.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 1000px) {
+  #projectCards .projectContainer .project #dlxYellowProject2Image {
+    background-size: 100%;
+    height: 400px;
+  }
+}
+
+#projectCards .projectContainer .project #dlxYellowProject3Image {
+  background: url("/img/dlxyellow/20.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 1000px) {
+  #projectCards .projectContainer .project #dlxYellowProject3Image {
     background-size: 100%;
     height: 400px;
   }
@@ -840,7 +872,7 @@ main #projects .projectContainer .project #project2Image {
 }
 
 main #projects .projectContainer .project #project3Image {
-  background: url("/img/dlxyellow1.png");
+  background: url("/img/dlxyellow/1.png");
   background-size: 120%;
   background-position: center;
   background-repeat: no-repeat;
