@@ -312,8 +312,24 @@
   }
 }
 
+#projectCards .projectContainer .project #dlxYellowProject4Image {
+  background: url("/img/dlxyellow/39.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 1000px) {
+  #projectCards .projectContainer .project #dlxYellowProject4Image {
+    background-size: 100%;
+    height: 400px;
+  }
+}
+
 #projectCards .projectContainer .project #sr5BlueProject1Image {
-  background: url("/img/sr5Blue2.jpg");
+  background: url("/img/sr5blue/9.png");
   background-size: 120%;
   background-position: center;
   background-repeat: no-repeat;
@@ -920,7 +936,7 @@ main #projects .projectContainer .project #project5Image {
 }
 
 main #projects .projectContainer .project #project6Image {
-  background: url("/img/sr5blue1.jpg");
+  background: url("/img/sr5blue/1.png");
   background-size: 120%;
   background-position: center;
   background-repeat: no-repeat;

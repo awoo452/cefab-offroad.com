@@ -215,8 +215,15 @@
                     height: 400px;
                 }
             }
+            #dlxYellowProject4Image {
+                @include custom-image(url('/img/dlxyellow/39.png'), 120%, center, no-repeat, 100%, 300px);
+                @media (min-width: 1000px) {
+                    background-size: 100%;
+                    height: 400px;
+                }
+            }
             #sr5BlueProject1Image {
-                @include custom-image(url('/img/sr5Blue2.jpg'), 120%, center, no-repeat, 100%, 300px);
+                @include custom-image(url('/img/sr5blue/9.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
                     background-size: 100%;
                     height: 400px;
