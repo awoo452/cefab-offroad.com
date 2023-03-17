@@ -173,55 +173,6 @@
                 border-top-left-radius: 5px;
                 background-color: black;
             }
-            #sr5RedProject1Image {
-                @include custom-image(url('/img/sr5red3.jpeg'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }           
-            #sr5RedProject2Image {
-                @include custom-image(url('/img/sr5red21.png'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
-            #the4RunnerProject1Image {
-                @include custom-image(url('/img/the4runner.jpg'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
-            #dlxYellowProject1Image {
-                @include custom-image(url('/img/dlxyellow/2.png'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
-            #dlxYellowProject2Image {
-                @include custom-image(url('/img/dlxyellow/3.png'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
-            #dlxYellowProject3Image {
-                @include custom-image(url('/img/dlxyellow/20.png'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
-            #dlxYellowProject4Image {
-                @include custom-image(url('/img/dlxyellow/39.png'), 120%, center, no-repeat, 100%, 300px);
-                @media (min-width: 1000px) {
-                    background-size: 100%;
-                    height: 400px;
-                }
-            }
             #sr5BlueProject1Image {
                 @include custom-image(url('/img/sr5blue/9.png'), 120%, center, no-repeat, 100%, 300px);
                 @media (min-width: 1000px) {
